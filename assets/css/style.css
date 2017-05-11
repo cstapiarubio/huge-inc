@@ -190,7 +190,25 @@ nav.open ul li{
 	visibility: visible !important;
 }
 
+nav.header-in{
+	background-color: rgba(217,40,130,0.9);
+}
 
+.solid #toogle .menu{
+	background: #fff;
+}
+
+.solid #toogle .menu:after{
+	background-color: #fff;
+}
+
+.solid #toogle .menu:before{
+	background-color: #fff;
+}
+
+nav.solid #logo .logo{
+	background-image: url (../img/logo.png);
+}
 
 
 
