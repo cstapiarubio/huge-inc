@@ -38,3 +38,55 @@ nav{
 	background: #ec008c;
 	transition: all 0.63s;
 }
+
+.menu1{
+	top: -10px;
+	right:0;
+	height: 4px;
+	width: 24px;
+	text-align: right;
+	z-index:1000;
+	margin-top: 2rem 2rem;
+	background: #ec008c;
+	transition: all 0.63s;
+}
+
+.menu2{
+    top:10px;
+	right:0;
+	height: 4px;
+	width: 24px;
+	text-align: right;
+	z-index:1000;
+	margin-top: 2rem 2rem;
+	background: #ec008c;
+	transition: all 0.63s;
+}
+
+#toogle:hover .menu:before{
+	top:-9x;
+}
+
+#toogle:hover .menu:after{
+	top:9x;
+}
+
+.open .menu{
+	background: none !important;
+}
+
+.open .menu:after{
+	top: 0 !important;
+	background: #fff !important;
+	transform: rotate(45deg);
+}
+
+.open .menu:before{
+	top: 0 !important;
+	background: #fff !important;
+	transform: rotate(-45deg);
+}
+
+
+
+
